@@ -20,9 +20,4 @@ public static class WorldTree
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
-
-    public static bool IsUsingMode()
-    {
-        return Cursor.visible;
-    }
 }
